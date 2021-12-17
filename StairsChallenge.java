@@ -9,7 +9,6 @@ public class StairsChallenge {
         return fib(n - 1) + fib(n - 2);
     }
 
-    // Returns number of ways to reach s'th stair
     static int countWays(int s)
     {
         return fib(s + 1);
